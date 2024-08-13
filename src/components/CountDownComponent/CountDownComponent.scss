@@ -7,4 +7,10 @@
     color: $primary-color;
     font-family: "SpaceGrotesk";
     font-weight: 700;
+    margin: 0;
+}
+
+.countdown-container {
+    @include flexbox(row, center, center);
+    min-height: 100vh;
 }

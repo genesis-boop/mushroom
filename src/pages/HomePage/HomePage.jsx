@@ -1,9 +1,11 @@
 import CountDown from "../../components/CountDownComponent/CountDownComponent";
+import YearGoal from "../../components/YearGoalComponent/YearGoalComponent";
 import "./HomePage.scss";
 
 function HomePage() {
   return (
-    <div className="background">
+    <div>
+      <YearGoal />
       <CountDown />
     </div>
   );

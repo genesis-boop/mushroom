@@ -2,3 +2,15 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
+
+
+// .year-container {
+
+// }
+
+.year-title {
+    color: $primary-color;
+    font-family: "SpaceGrotesk";
+    font-weight: 700;
+    margin: 0;
+}
